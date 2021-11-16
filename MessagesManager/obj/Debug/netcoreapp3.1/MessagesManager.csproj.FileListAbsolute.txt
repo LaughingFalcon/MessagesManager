@@ -1,0 +1,9 @@
+C:\Users\Acauã\Desktop\Mala\Emprego\LexisNexis\MessagesManager\MessagesManager\bin\Debug\netcoreapp3.1\MessagesManager.deps.json
+C:\Users\Acauã\Desktop\Mala\Emprego\LexisNexis\MessagesManager\MessagesManager\bin\Debug\netcoreapp3.1\MessagesManager.dll
+C:\Users\Acauã\Desktop\Mala\Emprego\LexisNexis\MessagesManager\MessagesManager\bin\Debug\netcoreapp3.1\MessagesManager.pdb
+C:\Users\Acauã\Desktop\Mala\Emprego\LexisNexis\MessagesManager\MessagesManager\obj\Debug\netcoreapp3.1\MessagesManager.AssemblyInfoInputs.cache
+C:\Users\Acauã\Desktop\Mala\Emprego\LexisNexis\MessagesManager\MessagesManager\obj\Debug\netcoreapp3.1\MessagesManager.AssemblyInfo.cs
+C:\Users\Acauã\Desktop\Mala\Emprego\LexisNexis\MessagesManager\MessagesManager\obj\Debug\netcoreapp3.1\MessagesManager.dll
+C:\Users\Acauã\Desktop\Mala\Emprego\LexisNexis\MessagesManager\MessagesManager\obj\Debug\netcoreapp3.1\MessagesManager.pdb
+C:\Users\Acauã\Desktop\Mala\Emprego\LexisNexis\MessagesManager\MessagesManager\obj\Debug\netcoreapp3.1\MessagesManager.csprojAssemblyReference.cache
+C:\Users\Acauã\Desktop\Mala\Emprego\LexisNexis\MessagesManager\MessagesManager\obj\Debug\netcoreapp3.1\MessagesManager.csproj.CoreCompileInputs.cache
