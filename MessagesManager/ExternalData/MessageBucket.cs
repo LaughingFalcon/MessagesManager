@@ -13,9 +13,9 @@ namespace MessagesManager.ExternalData
             return await Task.FromResult(new MessageModel());
         }
 
-        public async Task<List<MessageModel>> List(MessageFilter filter)
+        public async Task<List<SimpleMessageModel>> List(MessageFilter filter)
         {
-            return await Task.FromResult(new List<MessageModel>());
+            return await Task.FromResult(new List<SimpleMessageModel>());
         }
 
         public async Task<bool> Save(MessageModel messageModel)

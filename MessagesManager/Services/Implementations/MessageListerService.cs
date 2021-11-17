@@ -1,4 +1,5 @@
 ﻿using MessagesManager.Domain;
+using MessagesManager.Enums;
 using MessagesManager.ExternalData;
 using System;
 using System.Collections.Generic;
@@ -21,6 +22,7 @@ namespace MessagesManager.Services.Implementations
                 RangeKey = username
             };
             var listMessage = await _messageBucket.List(filter);
+            listMessage.RemoveAll(x => x.Status.Equals(MessageStatusEnum.DELETED));
 
             var response = new ResponseModel()
             {

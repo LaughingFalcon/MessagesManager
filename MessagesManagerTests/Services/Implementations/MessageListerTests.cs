@@ -19,7 +19,7 @@ namespace MessagesManagerTests.Services.Implementations
             _messageBucket = new Mock<IMessageBucket>(MockBehavior.Strict);
             _messageBucket
                 .Setup(x => x.List(It.Is<MessageFilter>(m => !string.IsNullOrEmpty(m.RangeKey))))
-                .ReturnsAsync(new List<MessageModel>());
+                .ReturnsAsync(new List<SimpleMessageModel>());
 
             _messageEditor = new MessageListerService(_messageBucket.Object);
         }
@@ -40,7 +40,7 @@ namespace MessagesManagerTests.Services.Implementations
 
             Assert.Equal(username, response.Username);
 
-            Assert.IsType<List<MessageModel>>(response.Data);
+            Assert.IsType<List<SimpleMessageModel>>(response.Data);
         }
     }
 }

@@ -74,7 +74,7 @@ namespace MessagesManagerTests.Services
             };
             var responseList = new ResponseModel()
             {
-                Data = new List<MessageModel>(),
+                Data = new List<SimpleMessageModel>(),
                 Username = "username"
             };
             var responseMessage = new ResponseModel()
@@ -313,8 +313,8 @@ namespace MessagesManagerTests.Services
 
             var response = await _managerServiceListed.ProcessAsync(authBase64Encoded, actionModel);
 
-            Assert.IsType<List<MessageModel>>(response.Data);
-            Assert.NotNull((List<MessageModel>)response.Data);
+            Assert.IsType<List<SimpleMessageModel>>(response.Data);
+            Assert.NotNull((List<SimpleMessageModel>)response.Data);
         }
         #endregion
 
